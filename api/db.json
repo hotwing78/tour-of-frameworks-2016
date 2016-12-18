@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "title": "Hello World",
+      "description": "Description of Hello World",
+      "status": "abandoned",
+      "id": 1
+    },
+    {
+      "title": "fun-fp",
+      "description": "Fun Functional Programming Lib2",
+      "status": "active",
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "name": "setup",
+      "description": "setup project",
+      "status": "open",
+      "parent_id": 1,
+      "id": 1
+    },
+    {
+      "name": "build step",
+      "description": "Create a Build Step",
+      "status": "closed",
+      "parent_id": 1,
+      "id": 2
+    },
+    {
+      "name": "license",
+      "description": "Setup License File",
+      "status": "closed",
+      "parent_id": 2,
+      "id": 3
+    }
+  ]
+}
