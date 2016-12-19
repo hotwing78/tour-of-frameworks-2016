@@ -11,6 +11,46 @@
       "description": "Fun Functional Programming Lib2",
       "status": "active",
       "id": 2
+    },
+    {
+      "title": "Christmas Prep",
+      "description": "Get Prepared for the big day!",
+      "id": 3
+    },
+    {
+      "title": "Awesome Sauce",
+      "description": "Beep",
+      "id": 4
+    },
+    {
+      "title": "Beep3",
+      "description": "Boop",
+      "id": 5
+    },
+    {
+      "title": "Voo",
+      "description": "doo",
+      "id": 6
+    },
+    {
+      "title": "Church Service",
+      "description": "Help out",
+      "id": 7
+    },
+    {
+      "title": "bobbam",
+      "description": "beepboop",
+      "id": 8
+    },
+    {
+      "title": "Project3",
+      "description": "Cool Beans",
+      "id": 9
+    },
+    {
+      "title": "Goodbye Moon",
+      "description": "Set UP new project",
+      "id": 10
     }
   ],
   "tasks": [
@@ -29,11 +69,53 @@
       "id": 2
     },
     {
-      "name": "license",
+      "name": "license2",
       "description": "Setup License File",
       "status": "closed",
       "parent_id": 2,
       "id": 3
+    },
+    {
+      "parent_id": "5",
+      "name": "New Task",
+      "description": "o",
+      "id": 4
+    },
+    {
+      "parent_id": "5",
+      "name": "Task two",
+      "description": "Beep",
+      "id": 5
+    },
+    {
+      "parent_id": "5",
+      "name": "Task 4",
+      "description": "Do a chore",
+      "id": 6
+    },
+    {
+      "parent_id": "3",
+      "name": "Ornaments",
+      "description": "Hang Ornaments",
+      "id": 7
+    },
+    {
+      "parent_id": "3",
+      "name": "Put up Tree",
+      "description": "Need to put up christmas tree",
+      "id": 8
+    },
+    {
+      "parent_id": "5",
+      "name": "task 44",
+      "description": "bam",
+      "id": 9
+    },
+    {
+      "parent_id": "4",
+      "name": "Beep Task",
+      "description": "FooBar",
+      "id": 10
     }
   ]
 }

@@ -1,0 +1,18 @@
+{
+  "name": "choo-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "bankai client.js --html [ --title 'Mad Science' --body '<script src=\"https://code.jquery.com/jquery-3.1.1.js\"></script><script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>' --head '<link rel=\"stylesheet\" href=\"https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css\" /><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/yeti/bootstrap.min.css\" />' ]",
+    "build": "bankai build client.js /dist"
+  },
+  "dependencies": {
+    "choo": "^4.0.1",
+    "ramda": "^0.22.1",
+    "xhr": "^2.3.2"
+  },
+  "devDependencies": {
+    "bankai": "^5.1.3"
+  }
+}
